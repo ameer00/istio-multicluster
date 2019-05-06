@@ -47,6 +47,7 @@ grafana:
 
 kiali:
   enabled: true
+  createDemoSecret: true
   dashboard:
     grafanaURL: http://grafana:3000
 
