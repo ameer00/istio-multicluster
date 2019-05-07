@@ -1,6 +1,6 @@
 global:
   mtls:
-    enabled: false
+    enabled: true
   # Provides dns resolution for global services
   podDNSSearchNamespaces:
   - global
