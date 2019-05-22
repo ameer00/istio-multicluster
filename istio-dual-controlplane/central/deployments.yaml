@@ -117,7 +117,7 @@ spec:
         image: gcr.io/google-samples/microservices-demo/paymentservice:v0.1.1
         ports:
         - containerPort: 50051
-      env:
+        env:
         - name: PORT
           value: "50051"
         readinessProbe:
